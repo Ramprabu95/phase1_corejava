@@ -23,6 +23,9 @@ public class assignment2 {
 			result = add(num1,num2);
 			
 		}
-		catch(ArithmeticException ae);
+		catch(ArithmeticException ae)
+		{
+			System.out.print(false);
+		}
 	}
 }
